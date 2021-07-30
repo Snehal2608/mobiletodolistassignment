@@ -1,0 +1,143 @@
+.container{
+    width: 100%;
+    height: 700px;
+    /* display: flex; */
+    margin-top: 50px;
+  
+    align-items: center;
+    overflow: hidden;
+
+}
+.mobile-card-container{
+    /* display: flex; */
+    
+    margin: 5px;
+    text-align: center;
+    /* height: 650; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    align-items: center;
+}
+.mobile-card-heading{
+    height:80px;
+    width: 50%; 
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    justify-content: space-evenly;
+    margin-right: 0%;
+ }
+.mobile-card-heading h1{
+    font-size:40px;
+    font-weight: bold;
+}
+.mobile-card-heading span{
+    color: grey;
+}
+.fa {
+   
+    margin-top: 22px;
+    margin-left: 60px;
+}
+.mobile-card{
+    display: flex;
+    width: 50%;
+    
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.mobile-card-design{
+    width: 40%;
+    /* height: 40%; */
+    padding: 5px;
+    margin: 5px;
+    background-color:white;
+    border-width: 1px;
+    border-color: lightcoral;
+    border-style:solid;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 2px gray;
+    
+  
+}
+
+@media screen and (min-width:350px) and (max-width:700px) {
+    body{
+        overflow: hidden;
+        position: relative;
+       
+        
+    }
+    .container{
+        width: 100%;
+        height: 550px;
+        /* display: flex; */
+        margin-top: 50px;
+       
+        align-items: center;
+        overflow: hidden;
+        left: 0px;
+    
+    }
+    
+    .mobile-card-container{
+        /* display: flex; */
+        
+        margin: 0px;
+        text-align: center;
+        position: relative;
+        height: 500;
+    }
+    .mobile-card-heading{
+        height:80px;
+        width: 100%; 
+        display: flex;
+        flex-direction: row;
+        position: relative; 
+        justify-content: space-evenly;
+        margin-right: 0%;
+        margin-bottom: 10px;
+     }
+    .mobile-card-heading h1{
+        font-size:40px;
+        font-weight: bold;
+    }
+    .mobile-card-heading span{
+        color: grey;
+    }
+    .fa {
+       
+        margin-top: 22px;
+        margin-left: 80px;
+    }
+    .mobile-card{
+        display: flex;
+        width: 100%;
+        
+    
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .mobile-card-design{
+        width: 90%;
+        /* height: 40%; */
+        
+        margin: 5px;
+        background-color:white;
+        border-width: 1px;
+        border-color: lightcoral;
+        border-style:solid;
+        border-radius: 10px;
+        box-shadow:2px 2px 2px 2px gray;
+        
+      
+    }
+
+}
